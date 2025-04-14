@@ -1,0 +1,37 @@
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    .entity {
+      background-color: #ffffff;
+      border: 1px solid #dcdcdc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .entity h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #2980b9;
+      cursor: pointer;
+    }
+    .attributes {
+      margin-top: 10px;
+      padding-left: 20px;
+      display: none;
+    }
+    .attributes li {
+      margin-bottom: 5px;
+    }
+  </style>
