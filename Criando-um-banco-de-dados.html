@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dicionário de Dados - Modelo Conceitual</title>
+</head>
+
+  <body>
+  <div class="container">
+    <h1>Dicionário de Dados</h1>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">CLIENTES</h2>
+      <ul class="attributes">
+        <li>Código</li>
+        <li>CNPJ</li>
+        <li>Razão Social</li>
+        <li>Ramo de Atividade</li>
+        <li>Data do Cadastramento</li>
+        <li>Telefones</li>
+        <li>Endereços</li>
+        <li>Pessoa de Contato</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">EMPREGADOS</h2>
+      <ul class="attributes">
+        <li>Matrícula</li>
+        <li>Nome</li>
+        <li>Telefones</li>
+        <li>Admissão</li>
+        <li>Qualificações</li>
+        <li>Endereço</li>
+        <li>Cargo</li>
+        <li>Salário</li>
+        <li>Data</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">EMPRESAS</h2>
+      <ul class="attributes">
+        <li>CNPJ</li>
+        <li>Razão Social</li>
+        <li>Telefones</li>
+        <li>Pessoa de Contato</li>
+        <li>Endereço</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">FORNECEDORES</h2>
+      <ul class="attributes">
+        <li>CNPJ</li>
+        <li>Razão Social</li>
+        <li>Endereço</li>
+        <li>Telefones</li>
+        <li>Pessoa de Contato</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">TIPO DE ENDEREÇO</h2>
+      <ul class="attributes">
+        <li>Código</li>
+        <li>Nome</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">ENDEREÇOS</h2>
+      <ul class="attributes">
+        <li>Número</li>
+        <li>Logradouro</li>
+        <li>Complemento</li>
+        <li>CEP</li>
+        <li>Bairro</li>
+        <li>Cidade</li>
+        <li>Estado</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">ENCOMENDAS</h2>
+      <ul class="attributes">
+        <li>Número</li>
+        <li>Data da Inclusão</li>
+        <li>Valor Total</li>
+        <li>Valor do Desconto</li>
+        <li>Valor Líquido</li>
+        <li>ID Forma de Pagamento</li>
+        <li>Quantidade de Parcelas</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">PRODUTOS</h2>
+      <ul class="attributes">
+        <li>Código</li>
+        <li>Nome</li>
+        <li>Cor</li>
+        <li>Dimensões</li>
+        <li>Peso</li>
+        <li>Preço</li>
+        <li>Tempo de Fabricação</li>
+        <li>Desenho do Produto</li>
+        <li>Horas de Mão de Obra</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">TIPOS DE COMPONENTE</h2>
+      <ul class="attributes">
+        <li>Código</li>
+        <li>Nome</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">COMPONENTES</h2>
+      <ul class="attributes">
+        <li>Código</li>
+        <li>Nome</li>
+        <li>Quantidade em Estoque</li>
+        <li>Preço Unitário</li>
+        <li>Unidade</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">MÁQUINAS</h2>
+      <ul class="attributes">
+        <li>Tempo de Vida</li>
+        <li>Data da Compra</li>
+        <li>Data de Fim da Garantia</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">RE</h2>
+      <ul class="attributes">
+        <li>Quantidade Necessária</li>
+        <li>Unidade</li>
+        <li>Tempo de Uso</li>
+        <li>Horas da Mão de Obra</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">RM</h2>
+      <ul class="attributes">
+        <li>Data</li>
+        <li>Descrição</li>
+      </ul>
+    </div>
+
+    <div class="entity">
+      <h2 onclick="toggleAttributes(this)">RS</h2>
+      <ul class="attributes">
+        <li>Quantidade</li>
+        <li>Data de Necessidade</li>
+      </ul>
+    </div>
+
+  </div>
+  </body>
+  
+</html>
